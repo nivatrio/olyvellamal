@@ -1,0 +1,97 @@
+{
+  "inverters": [
+    {
+      "name": "Vellammal",
+      "slaveId": 1,
+      "slaveType":"RTU",
+      "functionCode": 4,
+      "slaveIp" : "192.168.1.138:502",
+      "baudRate": 19200,
+      "dataBits": 8,
+      "stopBits": 1,
+      "parity": "none",
+   "registers": [
+        {
+          "start": 1071,
+          "count": 8
+        },
+        {
+          "start": 53247,
+          "count": 10
+        },
+        {
+          "start": 40994,
+          "count": 1
+        },
+        {
+          "start": 2047,
+          "count": 92
+        },
+        {
+          "start": 2495,
+          "count": 12
+        },
+        {
+          "start": 3071,
+          "count": 20
+        },
+        {
+          "start": 45055,
+          "count": 37
+        },
+        {
+          "start": 49151,
+          "count": 16
+        },
+        {
+        "start": 2049,
+                  "count": 58
+        },
+        {
+        "start": 2111,
+                  "count": 24
+        },
+        {
+        "start": 791,
+                  "count": 3
+        },
+        {
+        "start": 40974,
+                  "count": 8
+        },
+        {
+        "start": 53775,
+                  "count": 64
+        },
+        {
+        "start": 1087,
+                  "count": 11
+        },
+        {
+        "start": 40994,
+                  "count": 1
+        }
+
+  ]
+},
+ {
+      "name": "Vellammalzedctl",
+      "slaveId": 1,
+      "slaveType":"RTU",
+      "functionCode": 3,
+      "slaveIp" : "192.168.1.138:502",
+      "baudRate": 19200,
+      "dataBits": 8,
+      "stopBits": 1,
+      "parity": "none",
+      "registers": [
+        {
+          "start": 48511,
+          "count": 3
+        }
+
+  ]
+}
+]
+}
+

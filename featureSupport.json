@@ -1,0 +1,13 @@
+{
+ 
+  "deviceType": "solar",
+  "ledpins":21,
+  "pins": [17,16],
+  "customername":"olyvellamal",
+  "ftmodbus": "y",
+  "ftjson": "n",
+  "ftzed": "n",
+  "interval": 10,
+  "ftmqttcontrol": "n",
+  "ftbtcontrol": "n"
+}
