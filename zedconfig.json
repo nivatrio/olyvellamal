@@ -12,7 +12,7 @@
   "stopBits": 1,
   "parity": "none",
   "plantsize": 15,
-  "zedlimit": 0,
+  "zedlimit": 15,
   "inverters": [
     {
       "slaveId": 1,
