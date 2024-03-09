@@ -1,0 +1,37 @@
+{
+  "zedcustomer" : "vellammal zed"
+  "zedmeterid": 2,
+  "zedmetertype" : "RTU",
+  "zedmeterip":"192.168.1.101",
+  "zedmeterregstart": 3059,
+  "functionCode": 3,
+  "zedmeterregcount" : 2,
+  "zedmetermultiplicationfactor" : 1,
+  "baudRate": 19200,
+  "dataBits": 8,
+  "stopBits": 1,
+  "parity": "none",
+  "plantsize": 15,
+  "zedlimit": 0,
+  "inverters": [
+    {
+      "slaveId": 1,
+      "slaveType":"RTU",
+      "slaveIp" : "192.168.1.127:502",
+      "invsize" : 15,
+      "invlimitin": "p",
+      "activepowerctrlenabl" : "na",
+      "activepowerctrl" :  48511,
+      "activepowerctrlvalue" :  1,
+      "functionCode": 3,
+      "activepower" : 49151,
+      "activepowerregcount" : 1,
+      "registers": [
+        {
+          "start": 48512,
+          "count": 1
+        }
+      ]
+    }
+  ]
+}
